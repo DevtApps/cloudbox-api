@@ -1,8 +1,8 @@
 {
   "name": "cloudbox-api",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "Api de gerenciamento de arquivos inspirado no AWS S3 com controle de acesso e encriptação dos dados",
+  "author": "Tiago Silva /DevtApps",
   "private": true,
   "license": "MIT",
   "scripts": {
