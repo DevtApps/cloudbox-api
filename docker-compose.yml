@@ -1,0 +1,16 @@
+
+version: "3"
+
+services:
+  box:
+    build:
+      context: .
+    volumes:
+      - data:/cloudbox
+    env_file:
+      - .env
+    ports:
+      - 3001:3001
+volumes:
+  data:
+    driver: local
